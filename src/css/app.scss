@@ -1,0 +1,14 @@
+@import "reset.scss";
+
+body {
+    font-family: Helvetica;
+    background-color: #fff;
+    color: #000;
+}
+section.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
