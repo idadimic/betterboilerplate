@@ -38,6 +38,7 @@ gulp.task("js", function() {
     gulp.src("src/js/*")
     .pipe(
         webpack({
+            mode: 'none',
             output: {
                 filename: "app.js"
             }
